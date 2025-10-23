@@ -24,3 +24,32 @@ body{
     box-shadow: 5px 5px 10px purple;
     padding: 10px;
 }
+
+.conteudo input[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 20px;
+}
+.conteudo input[type="submit"]{
+    width: 150px;
+    padding: 10px;
+    background-color: plum;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+table, td, th{
+    border: 1px solid plum;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: plum;
+    color: white;
+}
+table{
+    width: 100%;
+}

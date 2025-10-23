@@ -1,8 +1,8 @@
 <div class="menu">
-        <a href='#'>Aula BD</a>
+        <a href='index.php'>Aula BD</a>
 
     <div>
-        <a href='#'>Cadastrar</a>
-        <a href='#'>Consultar</a>
+        <a href='aluno_cadastro.php'>Cadastrar</a>
+        <a href='aluno_consulta.php'>Consultar</a>
     </div>
 </div>
