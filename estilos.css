@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
     padding: 10px;
 
-    background-color: plum;
+    background-color: #BBA5CD;
 }
 
 .menu a{
@@ -18,10 +18,10 @@ body{
 
 .conteudo{
     width: 700px;
-    border: 1px solid plum;
+    border: 1px solid #BBA5CD;
     border-radius: 10px;
     margin: 10px auto;
-    box-shadow: 5px 5px 10px purple;
+    box-shadow: 5px 5px 10px #5C2891;
     padding: 10px;
 }
 
@@ -34,20 +34,20 @@ body{
 .conteudo input[type="submit"]{
     width: 150px;
     padding: 10px;
-    background-color: plum;
+    background-color: #5C2891;
     color: white;
     font-size: 20px;
     border: none;
 }
 
 table, td, th{
-    border: 1px solid plum;
+    border: 1px solid #BBA5CD;
     border-collapse: collapse;
     padding: 5px;
 }
 
 th{
-    background-color: plum;
+    background-color: #BBA5CD;
     color: white;
 }
 table{

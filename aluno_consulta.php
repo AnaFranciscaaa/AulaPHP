@@ -29,6 +29,7 @@
                 <td>Ana Francisca</td>
                 <td>São Jóse do Rio Pardo</td>
                 <td>SP</td>
+            </tr>
 
         </table>
 

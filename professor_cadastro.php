@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-        <p>Informe o nome do Professor</p>
-        <input type="text" name="professor"><br>
 
-        <p><input type="submit" name="Enviar" value="Cadastrar Professor"></p>
-    </form>
+    <?php include "menu.php" ?>
 
+    <div class="conteudo">
+
+        <h3>Cadastro de Professores</h3>
+
+        <form action="#" method="post">
+
+            <p>Digite o nome do Professor<br>
+            <input type="text" name="nomeProf"></p>
+
+            <p>Digite a area de formação<br>
+            <input type="text" name="formacao"></p>
+
+            <p>Digite a graduação<br>
+            <input type="text" name="graduacao"></p>
+
+            <p><input type="submit" name="enviar" value="Cadastrar"></p>
+
+        </form>
+
+    </div>
+    
 </body>
 </html>
