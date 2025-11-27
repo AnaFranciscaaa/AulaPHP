@@ -18,13 +18,13 @@
         if (isset($_REQUEST["enviar"]))
         {
             include "conexao.php";
-            $nome = $_REQUEST["curso"];
-            $cidade = $_REQUEST["coordenador"];
+            $curso = $_REQUEST["curso"];
+            $coordenador = $_REQUEST["coordenador"];
 
-            $sql = "insert into cursos (curso, coordenador) VALUES (:curso, :coordenador)";
+            $sql = "insert into cursos (nome, coordenador) VALUES (:nome, :coordenador)";
 
             $result = $conexao->prepare($sql);
-            $result->bindValue(":curso", $curso);
+            $result->bindValue(":nome", $curso);
             $result->bindValue(":coordenador", $coordenador);
             $result->execute();
 

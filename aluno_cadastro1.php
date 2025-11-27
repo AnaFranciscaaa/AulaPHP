@@ -33,7 +33,7 @@
             echo "<p>Aluno cadastrado com sucesso!</p>";
         }
 
-    ?>
+    ?> 
         <a href="aluno_cadastro.php">Voltar</a>
     </div>
 </body>
