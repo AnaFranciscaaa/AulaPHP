@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 13-Nov-2025 às 17:36
+-- Tempo de geração: 27-Nov-2025 às 15:28
 -- Versão do servidor: 8.0.31
 -- versão do PHP: 8.0.26
 
@@ -35,6 +35,28 @@ CREATE TABLE IF NOT EXISTS `alunos` (
   `nome` varchar(50) NOT NULL,
   `cidade` varchar(59) NOT NULL,
   `estado` varchar(2) NOT NULL,
+  PRIMARY KEY (`codigo`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Extraindo dados da tabela `alunos`
+--
+
+INSERT INTO `alunos` (`codigo`, `nome`, `cidade`, `estado`) VALUES
+(1, 'AAAAAAAAA', 'sp', 'sp'),
+(2, 'AAAAAAAAA', 'sp', 'sp');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `cursos`
+--
+
+DROP TABLE IF EXISTS `cursos`;
+CREATE TABLE IF NOT EXISTS `cursos` (
+  `codigo` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) NOT NULL,
+  `coordenador` varchar(50) NOT NULL,
   PRIMARY KEY (`codigo`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;

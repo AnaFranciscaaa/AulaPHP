@@ -6,5 +6,6 @@
         <a href='aluno_consulta.php'>Consultar</a>
         <a href='professor_cadastro.php'>Prof.Cadastro</a>
         <a href='professor_consulta.php'>Prof.Consultar</a>
+        <a href='curso_cadastro.php'>Cadastrar Curso</a>
     </div>
 </div>
